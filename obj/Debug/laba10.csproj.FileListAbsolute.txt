@@ -1,0 +1,10 @@
+C:\Users\Илья\Desktop\Выполненные работы\ООП\laba10\bin\Debug\laba10.exe.config
+C:\Users\Илья\Desktop\Выполненные работы\ООП\laba10\bin\Debug\laba10.exe
+C:\Users\Илья\Desktop\Выполненные работы\ООП\laba10\bin\Debug\laba10.pdb
+C:\Users\Илья\Desktop\Выполненные работы\ООП\laba10\obj\Debug\laba10.csproj.AssemblyReference.cache
+C:\Users\Илья\Desktop\Выполненные работы\ООП\laba10\obj\Debug\laba10.Form1.resources
+C:\Users\Илья\Desktop\Выполненные работы\ООП\laba10\obj\Debug\laba10.Properties.Resources.resources
+C:\Users\Илья\Desktop\Выполненные работы\ООП\laba10\obj\Debug\laba10.csproj.GenerateResource.cache
+C:\Users\Илья\Desktop\Выполненные работы\ООП\laba10\obj\Debug\laba10.csproj.CoreCompileInputs.cache
+C:\Users\Илья\Desktop\Выполненные работы\ООП\laba10\obj\Debug\laba10.exe
+C:\Users\Илья\Desktop\Выполненные работы\ООП\laba10\obj\Debug\laba10.pdb
