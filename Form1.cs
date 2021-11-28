@@ -136,10 +136,39 @@ namespace laba10
             }
             File.WriteAllText("ResultEx5.txt", richTextBox2.Text);
         }
-
+        
         private void button5_Click(object sender, EventArgs e)
         {
 
         }
+        // zadanie 6
+        private void AllSongs()
+        {
+            Song[] songs = new Song[5];
+            string[] authors = new string[5] { "Sabaton", "Powerwolf", "Мельница", "Gloryhummer", "Любэ" };
+            string[] names = new string[5] { "Panzerkampf", "We drink your blood", "Рукописи", "Gloryhummer", "Атас" };
+            songs[0] = new Song();
+            songs[0].songAuthor = authors[0];
+            songs[0].songName = names[0];
+            richTextBox3.Text = $"{songs[0].Title()}\n";
+            for (int songId = 1; songId < songs.Length; songId++)
+            {
+                songs[songId] = new Song();
+                songs[songId].songAuthor = authors[songId];
+                songs[songId].songName = authors[songId];
+                songs[songId].setPrev(songs[songId - 1]);
+                richTextBox3.Text += $"{songs[songId].Title()}\n";
+            }
+            songs[0].setPrev(songs[songs.Length - 1]);
+            richTextBox4.Text = $"{songs[0].Title()} == {songs[1].Title()} ? : {songs[0].Equals(songs[1])}";
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            AllSongs();
+        }
+
+        // zadanie 4
+
     }
 }
